@@ -1,5 +1,5 @@
 <app-player
-  [ngStyle]="{'top.px': 100 + (i * 120)}"
+  [ngStyle]="{ 'top.px': 100 + i * 120 }"
   *ngFor="let player of game.players; let i = index"
   style="top: 130px"
   class="player-position"
@@ -37,3 +37,7 @@
     />
   </div>
 </section>
+
+<button mat-fab color="primary" class="btn-add" (click)="openDialog()">
+  <mat-icon>add</mat-icon>
+</button>

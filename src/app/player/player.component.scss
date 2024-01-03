@@ -1,19 +1,23 @@
-.player{
-    width: 300px;
-    display: flex;
-    font-size: 24px;
-    align-items: center;
-    background-color: orange;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    img {
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-        border-radius: 100%;
-    }
-    span {
-        font-size: 28px;
-        margin-left: 16px;
-    }
+.player {
+  width: 300px;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  background-color: rgb(50, 50, 50, 0.8);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  span {
+    font-size: 28px;
+    margin-left: 16px;
+  }
+}
+
+.player-active {
+  background-color: orange !important;
 }
